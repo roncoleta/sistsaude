@@ -1,4 +1,4 @@
-Membros do grupo que realizou o projeto:
+Grupo:
 
 Ninna Ribeiro - 2401720
 Alycia Bond - 2403682
