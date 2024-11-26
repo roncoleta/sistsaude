@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="..\PrjFinal\styles.css">
+  <title>Cadastro de Pacientes</title>
+</head>
+<body>
+  <header>
+    <h1>Cadastro de Pacientes</h1>
+  </header>
+  <main>
+    <form id="form-cadastro-paciente">
+      <input type="text" name="nome" placeholder="Nome Completo" required>
+      <input type="text" name="cpf" placeholder="CPF" required>
+      <input type="date" name="dataNascimento" required>
+      <input type="text" name="telefone" placeholder="Telefone" required>
+      <button type="submit">Cadastrar</button>
+    </form>    
+    <div id="output"></div>
+  </main>
+  <script src="..\PrjFinal\script.ts" type="module"></script>
+</body>
+</html>

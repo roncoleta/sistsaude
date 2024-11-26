@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "outDir": "./dist",
+    "rootDir": ".",  // Define a raiz do projeto como o diretório principal
+    "strict": true
+  },
+  "include": ["PrjFinal/ts/**/*", "script.ts"], // Inclui o script.ts na raiz
+  "exclude": ["node_modules", "dist"]
+}

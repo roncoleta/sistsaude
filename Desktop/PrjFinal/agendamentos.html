@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="..\PrjFinal\styles.css">
+  <title>Agendamento de Exames</title>
+</head>
+<body>
+  <header>
+    <h1>Agendamento de Exames</h1>
+  </header>
+  <main>
+    <form id="form-agendamento-exames">
+      <input type="text" name="nomePaciente" placeholder="Nome do Paciente" required>
+      <input type="text" name="tipoExame" placeholder="Tipo de Exame" required>
+      <input type="date" name="dataExame" required>
+      <input type="time" name="horaExame" required>
+      <button type="submit">Agendar</button>
+    </form>    
+    <div id="output"></div>
+  </main>
+  <script src="..\PrjFinal\script.ts" type="module"></script>
+</body>
+</html>
